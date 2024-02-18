@@ -6,6 +6,6 @@ import { DonutDetailsComponent } from './components/donut-details/donut-details.
 export const routes: Routes = [
     { path: 'home', component: ShopHomeComponent },
 	{ path: 'cart', component: CartComponent },
-	{ path: 'donut-details', component: DonutDetailsComponent },
+	{ path: 'donut-details/:id', component: DonutDetailsComponent },
 ];
 
